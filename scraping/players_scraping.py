@@ -21,9 +21,6 @@ YEARS = [2024, 2025]
 #options Grass, Clay, Hard, Carpet
 SURFACES = ["Grass", "Clay", "Hard", "Carpet"]
 
-def year_expectation_statistic(year_previous: int, year_current: int):
-    return 0.8*year_current + 0.2*year_previous
-
 def try_to_convert_to_int(string_to_convert_to_int: str):
     try:
         return int(string_to_convert_to_int)
